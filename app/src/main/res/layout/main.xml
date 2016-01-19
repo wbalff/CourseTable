@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+
+             >
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/title"
+                 android:textSize="24sp"
+                 android:textColor="#ff0000"
+                 android:gravity="center"
+                 android:background="#ccbbaa"
+                 android:padding="10dp"/>
+
+             <TableRow style="@style/rowStyle">
+                 <TextView
+                     style="@style/textSyle"
+                     android:background="#00000000"/>
+                 <TextView
+                     style="@style/textSyle"
+                     android:text="@string/mon"/>
+                 <TextView
+                     style="@style/textSyle"
+                     android:text="@string/tues"/>
+                 <TextView
+                     style="@style/textSyle"
+                     android:text="@string/wen"/>
+                 <TextView
+                     style="@style/textSyle"
+                     android:text="@string/thur"/>
+                 <TextView
+                     style="@style/textSyle"
+                     android:text="@string/fri"/>
+             </TableRow>
+
+             <TableRow style="@style/rowStyle">
+                 <TextView
+                     style="@style/textSyle"
+                     android:text="@string/first"/>
+                 <Button
+                     android:id="@+id/row11"
+                     style="@style/btnStyle"/>
+                 <Button
+                     android:id="@+id/row12"
+                     style="@style/btnStyle"/>
+                 <Button
+                     android:id="@+id/row13"
+                     style="@style/btnStyle"/>
+                 <Button
+                     android:id="@+id/row14"
+                     style="@style/btnStyle"/>
+                 <Button
+                     android:id="@+id/row15"
+                     style="@style/btnStyle"/>
+             </TableRow>
+    <TableRow style="@style/rowStyle">
+        <TextView
+            style="@style/textSyle"
+            android:text="@string/second"/>
+        <Button
+            android:id="@+id/row21"
+            style="@style/btnStyle"/>
+        <Button
+            android:id="@+id/row22"
+            style="@style/btnStyle"/>
+        <Button
+            android:id="@+id/row23"
+            style="@style/btnStyle"/>
+        <Button
+            android:id="@+id/row24"
+            style="@style/btnStyle"/>
+        <Button
+            android:id="@+id/row25"
+            style="@style/btnStyle"/>
+    </TableRow>
+    <TableRow style="@style/rowStyle">
+        <TextView
+            style="@style/textSyle"
+            android:text="@string/third"/>
+        <Button
+            android:id="@+id/row31"
+            style="@style/btnStyle"/>
+        <Button
+            android:id="@+id/row32"
+            style="@style/btnStyle"/>
+        <Button
+            android:id="@+id/row33"
+            style="@style/btnStyle"/>
+        <Button
+            android:id="@+id/row34"
+            style="@style/btnStyle"/>
+        <Button
+            android:id="@+id/row35"
+            style="@style/btnStyle"/>
+    </TableRow>
+    <TableRow style="@style/rowStyle">
+        <TextView
+            style="@style/textSyle"
+            android:text="@string/fourth"/>
+        <Button
+            android:id="@+id/row41"
+            style="@style/btnStyle"/>
+        <Button
+            android:id="@+id/row42"
+            style="@style/btnStyle"/>
+        <Button
+            android:id="@+id/row43"
+            style="@style/btnStyle"/>
+        <Button
+            android:id="@+id/row44"
+            style="@style/btnStyle"/>
+        <Button
+            android:id="@+id/row45"
+            style="@style/btnStyle"/>
+    </TableRow>
+    <TableRow style="@style/rowStyle">
+    <TextView
+        style="@style/textSyle"
+        android:text="@string/fifth"/>
+    <Button
+        android:id="@+id/row51"
+        style="@style/btnStyle"/>
+    <Button
+        android:id="@+id/row52"
+        style="@style/btnStyle"/>
+    <Button
+        android:id="@+id/row53"
+        style="@style/btnStyle"/>
+    <Button
+        android:id="@+id/row54"
+        style="@style/btnStyle"/>
+    <Button
+        android:id="@+id/row55"
+        style="@style/btnStyle"/>
+</TableRow>
+    <TableRow style="@style/rowStyle">
+    <TextView
+        style="@style/textSyle"
+        android:text="@string/sixth"/>
+    <Button
+        android:id="@+id/row61"
+        style="@style/btnStyle"/>
+    <Button
+        android:id="@+id/row62"
+        style="@style/btnStyle"/>
+    <Button
+        android:id="@+id/row63"
+        style="@style/btnStyle"/>
+    <Button
+        android:id="@+id/row64"
+        style="@style/btnStyle"/>
+    <Button
+        android:id="@+id/row65"
+        style="@style/btnStyle"/>
+</TableRow>
+    <TableRow style="@style/rowStyle">
+    <TextView
+        style="@style/textSyle"
+        android:text="@string/seventh"/>
+    <Button
+        android:id="@+id/row71"
+        style="@style/btnStyle"/>
+    <Button
+        android:id="@+id/row72"
+        style="@style/btnStyle"/>
+    <Button
+        android:id="@+id/row73"
+        style="@style/btnStyle"/>
+    <Button
+        android:id="@+id/row74"
+        style="@style/btnStyle"/>
+    <Button
+        android:id="@+id/row75"
+        style="@style/btnStyle"/>
+    </TableRow>
+
+<TableRow style="@style/rowStyle">
+<TextView
+    style="@style/textSyle"
+    android:text="@string/eghith"/>
+<Button
+    android:id="@+id/row81"
+    style="@style/btnStyle"/>
+<Button
+    android:id="@+id/row82"
+    style="@style/btnStyle"/>
+<Button
+    android:id="@+id/row83"
+    style="@style/btnStyle"/>
+<Button
+    android:id="@+id/row84"
+    style="@style/btnStyle"/>
+<Button
+    android:id="@+id/row85"
+    style="@style/btnStyle"
+    />
+</TableRow>
+
+
+
+
+
+
+
+
+
+</TableLayout>
